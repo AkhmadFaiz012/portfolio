@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akhmad Faiz</title>
+    <!-- Favicon untuk mode terang -->
+    <link rel="icon" href="/src/img/Favicon-dark.png" media="(prefers-color-scheme: light)" />
+    <!-- Favicon untuk mode gelap -->
+    <link rel="icon" href="/src/img/Favicon-white.png" media="(prefers-color-scheme: dark)" />
+    <!-- Fontawesome CDN-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- link css -->
+    <link rel="stylesheet" href="/src/css/output.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="bg-transparent absolute top-0 left-0 w-full flex items-center z-30">
+        <div class="container">
+            <div class="flex items-center justify-between relative">
+                <div class="px-4">
+                    <a href="#home" class="text-primary font-bold text-2xl block py-6">MyPorto.</a>
+                </div>
+                <div class="flex items-center px-4">
+                    <button id="hamburger" name="hamburger" type="button" class="block absolute right-4 lg:hidden">
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-top-left"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out"></span>
+                        <span class="hamburger-line transition duration-300 ease-in-out origin-bottom-left"></span>
+                    </button>
+
+                    <nav id="nav-menu" class="hidden lg:block lg:static lg:bg-transparent lg:max-w-full lg:shadow-none lg:rounded-none absolute py-5 bg-white shadow-lg rounded-lg max-w-[250px] w-full right-4 top-full">
+                        <ul class="block lg:flex">
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Beranda</a>
+                            </li>
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Tentang</a>
+                            </li>
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Edukasi</a>
+                            </li>
+                            <li class="group">
+                                <a href="#home" class="text-base text-dark py-2 mx-8 flex group-hover:text-primary">Keahlian</a>
+                            </li>
+                            <li class="group">
+                                <button class="py-2 mx-8 font-medium btn btn-purple hover:bg-click-btn">Download CV</button>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- hero section start -->
+    <section id="home"  class="pt-36">
+        <div class="container">
+            <div class="flex flex-wrap">
+                <div class="w-full self-center px-4 lg:w-1/2">
+                    <h1 class="text-base font-semibold text-primary md:text-xl">halo Semua 👋, Saya <span class="block font-bold text-4xl text-dark mt-1 lg:text-5xl">Akhmad Faiz</span></h1>
+                    <h2 class="font-medium text-dark-2 text-lg lg:text-xl mb-5">Student & <span class="text-dark font-semibold">IT Support</span></h2>
+                    <p class="font-medium text-sm text-dark-3 mb-6 leading-relaxed">Jadi IT Support itu mudah, bukan? <span class="text-dark font-bold">Bukan!</span></p>
+                    <a href="#tentang" class="btn btn-purple font-medium hover:bg-click-btn hover:text-white">Kenalan Yuk!</a>
+                </div>
+                <div class="w-full self-end px-4 lg:w-1/2">
+                    <div class="mt-10 relative lg:mt-9 lg:right-0">
+                        <img src="/src/img/faiz-user.png" alt="faiz-user" class="max-w-full mx-auto lg:w-1/2">
+                        <span class="absolute bottom-0 left-1/2 -translate-x-1/2 -z-10 md:125"><svg width="400" height="400" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+                            <path fill="#a21caf" d="M66.1,-39.2C77.5,-18.4,72.9,10.5,59.2,31.3C45.6,52.2,22.8,64.8,-2.4,66.2C-27.5,67.6,-55,57.6,-65.2,38.8C-75.5,19.9,-68.5,-7.8,-54.7,-29.9C-41,-52.1,-20.5,-68.6,3.4,-70.6C27.3,-72.6,54.7,-60,66.1,-39.2Z" transform="translate(100 100) scale(1)" />
+                          </svg></span>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </section>
+
+
+
+    <!-- Tentang -->
+    <section id="tentang-saya" class=" py-20 mt-20 lg:mt-10">
+        <!-- Heading -->
+        <div class="sm:w-3/4 lg:w-5/12 mx-auto px-2">
+            <h1 class="text-3xl text-center text-grey-pallete font-Montserrat font-bold">Tentang Saya</h1>
+            <p class="text-center font-Montserrat text-md font-normal text-grey-pallete mt-4">Saya adalah orang yang tertarik dengan teknologi dan saya ingin mempelajari lebih lanjut tentang bidang ini. Saya juga suka mengekspresikan diri melalui fotografi, desain, dan coding.</p>
+        </div>
+        <!-- tentang-saya #1 -->
+        <div class="relative mt-20 lg:mt-10">
+            <div class="container flex flex-col lg:flex-row items-center justify-center gap-x-24">
+                <!-- image -->
+                <div class="flex flex-1 justify-center z-10 mb-0">
+                    <img class="w-5/6 h-5/6 bottom-0 right-2/4 sm:w-3/4 sm:h-3/4 md:w-1/2 md:h-1/2 rounded-xl shadow-md" src="/src/img/faiz-user.png" alt="">
+                </div>
+                <!-- Content -->
+                <div class="flex flex-1 flex-col items-center lg:items-start">
+                    <h1 class="text-3xl my-4 font-Poppins font-bold text-primary-pallete">Kenalan Yuk!</h1>
+                    <p class="text-grey-pallete my-4 text-center lg:text-left sm:h-3/4 lg:w-full text-md font-normal">Saya seorang siswa yang penuh semangat untuk belajar menjadi ahli di bidang Informatika. Saat ini, saya sedang menempuh pendidikan menengah atas di SMA 1 Mejobo di Kudus.</p>
+                    <button class="btn-small btn-purple hover:bg-red-pallete">Contact Me</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <script src="/src/js/script.js"></script>
+</body>
+</html>
